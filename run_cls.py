@@ -4,7 +4,7 @@ from multiprocessing import Pool
 
 if __name__ == '__main__':
 
-    pool = Pool(processes=1)  # 进程池
+    pool = Pool(processes=1)
 
     datasets = ['mvtec', 'visa']
     shots = [1, 2, 4]
@@ -21,5 +21,5 @@ if __name__ == '__main__':
                 pool.apply_async(os.system, (sh_method,))
 
     pool.close()
-    pool.join()  # 等待进程结束
+    pool.join()
 
