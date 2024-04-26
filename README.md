@@ -20,7 +20,7 @@ Modify the source and target paths for the VisA dataset in `./dataset/prepare_vi
 ```
 python ./dataset/prepare_visa_public.py
 ```
-
+Modify the source paths for MvTec and VisA in `./dataset/mvtec.py` and `./dataset/visa.py`
 ## Run
 ```
 python run_cls.py  # image-level
