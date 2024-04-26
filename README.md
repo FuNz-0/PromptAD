@@ -30,7 +30,12 @@ python run_seg.py  # pixel-level
 ## Citation
 Please cite the following paper if this work helps your project:
 ```
-
+@article{li2024promptad,
+  title={PromptAD: Learning Prompts with only Normal Samples for Few-Shot Anomaly Detection},
+  author={Li, Xiaofan and Zhang, Zhizhong and Tan, Xin and Chen, Chengwei and Qu, Yanyun and Xie, Yuan and Ma, Lizhuang},
+  journal={arXiv preprint arXiv:2404.05231},
+  year={2024}
+}
 ```
 
 ## Acknowledge
