@@ -233,7 +233,7 @@ def get_args():
     parser.add_argument("--n_ctx_ab", type=int, default=1)
     parser.add_argument("--n_pro", type=int, default=1)
     parser.add_argument("--n_pro_ab", type=int, default=4)
-    parser.add_argument("--Epoch", type=int, default=1)
+    parser.add_argument("--Epoch", type=int, default=100)
 
     # optimizer
     parser.add_argument("--lr", type=float, default=0.002)
