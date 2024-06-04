@@ -15,7 +15,7 @@ if __name__ == '__main__':
             for cls in classes[:]:
                 sh_method = f'python train_cls.py ' \
                             f'--dataset {dataset} ' \
-                            f'--k_shot {shot} ' \
+                            f'--k-shot {shot} ' \
                             f'--class_name {cls} ' \
 
                 print(sh_method)
